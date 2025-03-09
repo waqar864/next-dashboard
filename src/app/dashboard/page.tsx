@@ -30,13 +30,23 @@ const Dashboard = () => {
                     <p className='text-gray-700 mt-2'>Gain insight into performance and trends</p>
                 </Link>
                 {/* settings card */}
-                <Link className='bg-purple-100 hover:bg-purple-200 p-6 rounded-xl shadow-md hover:shadow-xl transition-all duration-200 ease-in-out transform hover:scale-105' href='dashboard/analytics'>
+                <Link className='bg-purple-100 hover:bg-purple-200 p-6 rounded-xl shadow-md hover:shadow-xl transition-all duration-200 ease-in-out transform hover:scale-105' href='dashboard/settings'>
                     <div className='flex items-center justify-between'>
                         <h2 className='text-xl font-semibold text-blue-800'>Settings</h2>
                         <span className='text-blue-500 text-2xl'>⚙️</span>
                     </div>
                     <p className='text-gray-700 mt-2'>
                         Customize your dashboard to suit your needs
+                    </p>
+                </Link>
+                {/* users card */}
+                <Link className='bg-yellow-100 hover:bg-yellow-200 p-6 rounded-xl shadow-md hover:shadow-xl transition-all duration-200 ease-in-out transform hover:scale-105' href='dashboard/users'>
+                    <div className='flex items-center justify-between'>
+                        <h2 className='text-xl font-semibold text-blue-800'>Users</h2>
+                        <span className='text-blue-500 text-2xl'>👥</span>
+                    </div>
+                    <p className='text-gray-700 mt-2'>
+                        view and manage your user base
                     </p>
                 </Link>
             </div>
